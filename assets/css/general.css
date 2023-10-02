@@ -1,0 +1,42 @@
+#navbar-main{
+	background-color: #F6CB19;
+	padding: 10px 0px;
+}
+.textoBlanco{
+  color: white !important;
+}
+
+.btnRegresar{
+
+	background-color: #4B4BD3;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 5px;
+	
+}
+
+.btnRegresar:hover{
+	background-color: #4B4BD3;
+	color: #F6CB19;
+}
+
+.notificaciones{
+	display: inline-block;
+	color: white;
+}
+
+.bgAzul{
+	background-color: #020067;
+	padding: 50px 0px;
+	color: white;
+}
+footer i{
+	color: #020067;
+}
+
+form label.label{
+	font-size: 12px;
+	font-weight: bold;
+}

@@ -1,0 +1,1079 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+<link rel="stylesheet" href="assets/css/vendor.css"/>
+<link rel="stylesheet" href="assets/css/style.css?ver=2.03"/>
+<!-- <link rel="stylesheet" href="assets/css/carousel.css"> -->
+<link href="assets/css/estilos.css?ver=2.00" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link rel="shortcut icon" href="assets/images/favicon/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png"/>
+<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-touch-icon-57x57.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-touch-icon-72x72.png"/>
+<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-touch-icon-76x76.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-touch-icon-114x114.png"/>
+<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-touch-icon-120x120.png"/>
+<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-touch-icon-144x144.png"/>
+<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-touch-icon-152x152.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon-180x180.png"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.5/sweetalert2.css">
+<!-- MARCAS -->
+<link href="assets/css/slick-theme.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css">
+<title>Ferretería Taximaroa</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-217405467-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-217405467-1');
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.5/sweetalert2.js"></script>
+</head>
+<body>
+  <div class="overlay"></div>
+    <div id="cookies">
+    <p>
+      Bienvenido a Taximaroa, al navegar en nuestro portal asumimos que estás de acuerdo y <b>aceptas los términos y condiciones</b><button class="btn-terminos" id="close-cookies">OK</button>&nbsp;<a style="color: white;" href="terminos-y-condiciones.php" class="btn-terminos">Ver más</a>
+    </p>
+  </div>
+ 
+<!-- header -->
+<header class="header header-dark header-sticky" style="background: rgba(0,0,104, 1)">
+<div class="container">
+  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+    <a href="index.php" class="navbar-brand order-1 order-lg-2" style="position: fixed; top:-10px; left: 50%; transform: translateX(-50%); max-width: 200px;"><img src="assets/images/logo-ferreteria.svg" height="142px" alt="Logo"></a>
+    <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--<div class="collapse navbar-collapse order-3 order-lg-1" id="navbarMenu">
+      <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item">
+        <a class="nav-link menuhover link-1" href="ver_categoria.php?categoria_seleccionada=todas&marca_seleccionada=todas">
+        Productos </a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link menuhover link-1" href="ver_marcas.php">Marcas</a>
+        </li>
+      </ul>
+    </div> -->
+    <!--<div class="collapse navbar-collapse order-4 order-lg-3" id="navbarMenu2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+        <a class="nav-link menuhover link-1" href="nosotros.php">Nosotros </a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link menuhover link-1" href="contacto.php">Contacto</a>
+        </li>
+      
+      </ul>
+    </div> -->
+    </nav>
+  </div>
+</div>
+
+</header>
+
+ 
+
+<style>
+  
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+</style>
+
+<div class="container-fluid" style="margin-top: 80px; padding: 0; ">
+<div class="owl-carousel owl-theme" id="owl-sliderP">
+
+     
+    <div class="item text-center">
+      <a href="" target="_blank">
+        <picture>
+          <source media="(min-width:600px)" srcset="assets/images/banner.jpeg" style="width: 100%;">
+          <img loading="lazy" src="assets/images/slider/banner-movil.jpeg" class="img-fluid" alt="">
+        </picture>
+      </a>
+    </div>
+</div>
+
+</div><!-- container-fluid -->
+
+
+
+    <div class="clearfix"></div>
+    <br>
+
+
+
+    <section class="">
+  <div class="container parallaxLogos">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="text-center textoBlanco">Somos <b>distribuidores autorizados</b> de las marcas</h3> <br><br>
+                  
+                  <div class="customer-logos">
+                   <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/rotoplas.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/truper.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/kobrex.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/nacobre.png"></div>
+                    <div class="slide"><img loading="lazy"class="logosMarcas" src="assets/images/marcas/dica.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/urrea.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/surtek.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/amanco.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/werner.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/prisa.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/makita.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/bosch.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/dewalt.png"></div>
+                    <div class="slide"><img loading="lazy"class="logosMarcas" src="assets/images/marcas/skil.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/philips.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/pennsylvania.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/bticino.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/fanal.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/3m.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/marcas/deacero.png"></div>
+                  </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- lookbook -->
+    <section class="bg-purple1 d-none d-sm-none d-md-block d-lg-block">
+      <div class="container-fluid" style="padding: 0 !important;">
+        <div class="header1" style="position: relative;">
+          <img src="assets/images/nosotros1.jpg" style="min-width: 100%; padding: 0 !important;" class="img-responsive" alt="">
+        <h2 class="nosotros">Somos una empresa 100% <br>Michoacana <br>
+          <small>Especializada en brindar soluciones oportunas en la <br class="mibr">provisión y consecución de materiales diversos para la<br class="mibr">construcción, urbanización y edificación</small></h2>
+        </div>
+      </div>
+      
+    </section>
+
+
+    <section class="d-block d-sm-block d-md-none d-lg-none">
+
+      <div class="container-fluid">
+        <div class="row no-gutter">
+          <div class="col-12">
+            <img style="padding-top: 50px;" src="assets/images/nosotros1.jpg" style="min-width: 100%; padding: 0 !important;" class="img-responsive" alt="">
+          </div>
+          <div class="col-12 text-center">
+            <h4 class="textoAzul">Somos una empresa 100% Michoacana </h4> <br>
+          <p>Especializada en brindar soluciones oportunas en la provisión y consecución de materiales diversos para la construcción, urbanización y edificación.</p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section style="background-color: #dddddd; padding-top:0 !important;">
+      <div class="container" >
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+    
+           
+          </div>
+          <div class="col-md-6 textoAzul order-12"><br>
+             <h2 class="text-center textoAzul">Misión</h2>
+             <p class="text-justify">Solucionar las necesidades de consumo de nuestros clientes en el ramo ferretero y de construcción con la mejor experiencia de compra a través de un trato amable y solidario basado en la vocación de servicio.</p>
+          </div>
+          <div class="col-md-6 text-center order-1" id="vision"> <br>
+            <img src="assets/images/icono1.png" class="sombraImg" alt="">
+            <br>
+          </div>
+        </div>
+      
+      
+      </div>
+      </section>
+      <section style="padding-top:10px !important; padding-bottom: 10px !important;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center">
+             <br>
+            <img src="assets/images/icono2.png" class="sombraImg" alt="">
+          </div>
+          <div class="col-md-6 textoAzul"><br>
+            <h2 class="text-center textoAzul">Visión</h2>
+
+            <p class="text-justify">
+              Ser una empresa con amplia proyección e innovación que ofrece soluciones al mercado industrial, institucional, al detalle y de comercio electrónico generadora de oportunidades y desarrollo para nuestra cadena de valor, colaboradores y comunidad. <br><br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="">
+  <div class="container parallaxLogos">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="text-center textoBlanco">Nuestros <b>clientes</b></h3> <br><br>
+                  <div class="customer-logos">
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/clientes/medacasa.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/clientes/construcciones.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/clientes/medacasa.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/clientes/construcciones.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/clientes/medacasa.png"></div>
+                    <div class="slide"><img loading="lazy" class="logosMarcas" src="assets/images/clientes/construcciones.png"></div>
+                  </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="bgGris">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-4 col-12"></div>
+      <div class="col-md-4 col-12 text-center">
+         <h4 class="textoAzul">ESCRÍBENOS</h4> <br>
+         <form class="formularioContacto eliminar" id="formularioContacto">
+            <div class="full cf">
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre completo">
+              <div id="validatenombre" class="validate">Captura tu nombre completo</div>
+              <input type="email" id="correo" name="correo" placeholder="Correo electrónico">
+              <div id="validatecorreo" class="validate">Ingresa un correo válido</div>
+              <!-- <input type="text" id="input-subject" placeholder="Subject"> -->
+            </div>
+            <div class="full cf text-center">
+              <textarea cols="30" rows="10" name="mensaje" type="text" id="mensaje" placeholder="Mensaje"></textarea>
+              <div id="validatemensaje" class="validate">Escribe un mensaje</div>
+            </div>  
+            <br>
+            <input onclick="enviar(); return false;" type="submit" value="Enviar" id="input-submit" style="max-width: 150px; max-height: 40px;">
+          </form>
+           <div class="sent-message btn-block">
+             <div class="mensajePregunta" style="display:none;">
+                <div class="row">
+                  <div class="col-md-2 text-right">
+                    <i style="color:#4f944f;" class="fas fa-3x fa-check-circle"></i>
+                  </div>
+                  <div class="col-md-9 text-center">
+                    <b class="textoAzul">Mensaje enviado, en breve nos pondremos en contacto contigo</b>
+                  </div>
+                </div>
+                
+              </div>
+           </div>
+          </div>
+
+      </div>
+
+
+
+  </div>
+</section>
+
+
+
+
+<section style="padding: 0; margin: 0;">
+  
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.138236893992!2d-101.16430038460167!3d19.706737936962792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d0e02ac7f6875%3A0xbe4fd8198696cb8a!2sC.%20Fray%20Sebasti%C3%A1n%20de%20Aparicio%2023%2C%20Buena%20Vista%202da%20Etapa%2C%2058228%20Morelia%2C%20Mich.!5e0!3m2!1ses!2smx!4v1618547955231!5m2!1ses!2smx" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
+
+</section>
+
+
+<footer>
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 col-4 text-sm-left text-lg-left text-center">
+      <h5 class="textoBlanco">NOSOTROS</h5>
+      <a href="nosotros.php">Misión</a><br>
+      <a href="nosotros.php#vision">Visión</a><br>
+      <br>
+    </div>
+    <div class="col-md-2 col-4 text-sm-left text-lg-left text-center">
+     <h5 class="textoBlanco">Síguenos:</h5>
+        <a href="https://www.facebook.com/ferretaximaroa" target="_blank"><i class="fab fa-2x fa-facebook"></i></a> &nbsp; <a href="https://www.instagram.com/ferreteria_taximaroa/" target="_blank"><i class="fab fa-2x fa-instagram"></i></a> &nbsp; <a href="https://www.linkedin.com/company/ferreter%C3%ADa-taximaroa-morelia" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
+    </div>
+    <div class="col-md-2 col-4 text-sm-left text-lg-left text-center">
+      <h5 class="textoBlanco">SOPORTE</h5>
+      
+      <a href="preguntas-frecuentes.php">Preguntas Frecuentes</a><br>
+    </div>
+    <div class="col-12 d-block d-sm-block d-md-none d-lg-none">
+      <hr>
+    </div>
+    <div class="col-md-6 text-left">
+      <h5 class="textoBlanco text-center text-md-left text-lg-left">CONTACTO</h5>
+      <p>
+        <i class="textoAzul fas fa-map-marker-alt"></i> Calle Fray Sebastián de Aparicio 23, Buena Vista 2da Etapa, 58228 Morelia, Mich. México <br>
+        <i class="textoAzul fas fa-clock"></i> Lunes a viernes de 8:00 a 18:00 hrs y Sábado de 8:00 a 14:00 hrs <br>
+        <i class="textoAzul fas fa-envelope"></i><a href="mailto:contacto@ferreteriataximaroa.com"> contacto@ferreteriataximaroa.com</a><br>
+        <i class="textoAzul fas fa-phone-alt"></i><a class="iconoTelefono" href="tel:4433230827"> 443-323 0827</a> &nbsp; <i class="textoAzul fas fa-phone-alt"></i><a class="iconoTelefono" href="tel:4433234197"> 443-323 4197</a>&nbsp; <i class="textoAzul fas fa-phone-alt"></i><a class="iconoTelefono" href="tel:4433232296"> 443-323 2296</a><br>
+        <b><i><a class="textoAmarillo" href="contacto.php" target="_blank">¿Necesitas ayuda?</a></i></b>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="col-12">
+  
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 col-12">
+    </div>
+    <div class="col-md-8 col-12">
+      <a href="aviso-de-privacidad.php" class="textoBlanco">Aviso de Privacidad</a>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a href="terminos-y-condiciones.php" class="textoBlanco">Términos y condiciones</a><br>
+      <span class="textoAmarillo">Ferretería Taximaroa. Todos los derechos reservados 2023      </span>
+    </div>
+  </div>
+</div>
+</footer>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/61b8e25e80b2296cfdd1b795/1fmt38gb5';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<script src="assets/js/vendor.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script type="text/javascript" src="assets/js/slick.min.js"></script>
+
+
+
+
+
+
+
+    <!-- Modal Cotización -->
+<div class="modal fade" id="cotizacion" tabindex="-1" role="dialog" aria-labelledby="cotizacion" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-12 text-center">
+         <h4 class="textoAzul">Solicitud de Cotización</h4> <br>
+         <form class="formularioContacto eliminar" id="formularioContacto">
+            <div class="full cf">
+              <input type="text" id="nombreCot" name="nombre" placeholder="Nombre completo">
+              <div id="validatenombreCot" class="validateCot" style="display: none;">Captura tu nombre completo</div>
+              <input type="email" id="correoCot" name="correo" placeholder="Correo electrónico">
+              <div id="validatecorreoCot" class="validateCot" style="display: none;">Captura tu correo</div>
+
+            </div>
+            <div class="full cf text-center">
+              <input  type="text" id="txt_search_cotizacion" name="txt_search_cotizacion" class="form-control1" placeholder="Busca el producto que quieres cotizar" aria-label="Busca el producto que quieres cotizar">
+              <!-- <textarea cols="30" rows="10" name="mensaje" type="text" id="mensaje" placeholder="¿Qué productos necesitas cotizar?"></textarea> -->
+           
+            </div> 
+            <br>
+            <ul id="searchResultCotizacion"></ul>
+            
+            <br>
+            <label>¿El producto qué buscabas no se encuentra?</label>
+            <input name="cotizarProducto" type="text" id="cotizarProducto" placeholder="Ingrésalo aquí"></input>
+            <button onclick="agregarEsteProducto(); return false;" style="background-color: #F7CC19; padding: 5px; font-size: 10px;color: white; border-radius: 5px; border: none;">Agregar a cotización</button>
+            <br><br>
+             <ul id="searchResultCotizacion1" style="display: none;">
+              <ul><b>Productos a cotizar</b></ul>
+            </ul>
+
+            
+            <input onclick="cotizacion(); return false;" type="submit" value="Solicitar cotización" id="input-submit" style="max-width: 200px; max-height: 40px;">
+          </form>
+           <div class="sent-messageCot btn-block">Mensaje enviado, en breve responderemos a tu cotización.</div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Cotización -->
+
+
+<!-- modal pregrunta de productos MOSTRAR SOLO EN X PÁGINA -->
+
+<!-- modal pregrunta de productos MOSTRAR SOLO EN X PÁGINA -->
+
+
+    <!-- Modal -->
+<div class="modal fade" id="graciasContacto" tabindex="-1" role="dialog" aria-labelledby="graciasContacto" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body text-center">
+
+          <h3 class="textoAzul">Gracias por contactarnos <br>estamos atendiendo tu solicitud</h3>
+          <i class="far fa-4x fa-thumbs-up"></i> <br><br>
+          <button type="button" class="btn btn-sm btn-warning" style="border-radius: 10px;" data-dismiss="modal">Ok</button>
+
+
+  </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal -->
+<div class="modal fade" id="tipoDeEnvio" tabindex="-1" role="dialog" aria-labelledby="tipoDeEnvio" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body text-center">
+
+        <p class="text-justify">
+          Nuestro compromiso es ofrecerte los mejores productos a excelentes precio, así como el envío hasta el lugar que lo necesites, sin embargo, algunos productos por tema de dimensiones, peso o disponibilidad, sólo pueden ser enviados a la ciudad de Morelia y sus alrededores.
+        </p>
+        <p class="text-justify">
+          Así mismo, tenemos otros productos que pueden ser enviados a cualquier parte de la república mexicana a través de paquetería. Lamentamos si tu producto no es elegible para su envío a tu ubicación, si necesitas atención personalizada o más información, no dudes en contactarnos.
+        </p>
+        <p class="text-center">
+             <a href="tel:4433230827"><i class="textoAzul fas fa-phone-alt"></i> 443-323 0827</a>
+        </p>
+
+          <button type="button" class="btn btn-sm btn-warning" style="border-radius: 10px;" data-dismiss="modal">Cerrar</button>
+
+
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    <!-- Modal -->
+<div class="modal fade" id="iniciarSesion" tabindex="-1" role="dialog" aria-labelledby="iniciarSesion" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title textoAzul" id="exampleModalLabel">Acceso al panel de cliente <br><small>Por favor ingresa tu usuario y contraseña</small></h3>
+        <button style="position: absolute;right: 0; top: 40px;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center">
+
+
+          <form class="form-signin" role="form" >
+                <div class="form-group mb-3">
+                  <div class="input-group input-group-alternative">
+                    
+                    <input class="form-control" name="usuario" id="usuario" placeholder="Usuario" type="text" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group input-group-alternative">
+                    
+                    <input class="form-control" name="password" id="password" placeholder="Password" type="password" required>
+                  </div>
+                </div>
+                
+                <div class="text-center">
+                  <button type="button" onclick="ingresar(); return false;" class="btn btn-primary my-4">Ingresar</button>
+                </div>
+              </form>
+
+              <div class="row mt-3">
+            <div class="col-6">
+              <a href="clientes/recuperar.php" class="textoLinks"><small>¿Olvidaste tu contraseña?</small></a>
+            </div>
+            <div class="col-6 text-right">
+              <a href="clientes/registrarse.php" class="textoLinks"><small>Crear cuenta</small></a>
+            </div>
+          </div>
+
+
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+ <!-- Modal -->
+<div class="modal fade" id="iniciarSesionCarrito" tabindex="-1" role="dialog" aria-labelledby="iniciarSesionCarrito" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title textoAzul" id="exampleModalLabel">Acceso al panel de cliente <br><small>Por favor ingresa tu usuario y contraseña</small></h3>
+        <button style="position: absolute;right: 0; top: 40px;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body text-center">
+
+
+          <form class="form-signin" role="form" >
+                <div class="form-group mb-3">
+                  <div class="input-group input-group-alternative">
+                    
+                    <input class="form-control" name="usuario" id="usuarioCarrito" placeholder="Usuario" type="text" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group input-group-alternative">
+                    
+                    <input class="form-control" name="password" id="passwordCarrito" placeholder="Password" type="password" required>
+                  </div>
+                </div>
+                
+                <div class="text-center">
+                  <button type="button" onclick="ingresarCarrito(); return false;" class="btn btn-primary my-4">Ingresar</button>
+                </div>
+              </form>
+
+              <div class="row mt-3">
+            <div class="col-6">
+              <a href="clientes/recuperar.php" class="textoLinks"><small>¿Olvidaste tu contraseña?</small></a>
+            </div>
+            <div class="col-6 text-right">
+              <a href="clientes/registrarse.php" class="textoLinks"><small>Crear cuenta</small></a>
+            </div>
+          </div>
+
+
+  </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal FAQS -->
+<div class="modal fade" id="faqs" tabindex="-1" role="dialog" aria-labelledby="faqs" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    
+      <div class="modal-body">
+        
+
+        <div class="row">
+          <div class="col-12 text-center">
+         <h4 class="textoAzul">¿Cómo podemos ayudarte?</h4> <br>
+         <form class="formularioContacto eliminar" id="formularioContacto">
+            
+            <div class="full cf text-center">
+              
+              <textarea class="form-control" cols="30" rows="10" name="mensaje" type="text" id="pregunta" placeholder="Escríbe tu pregunta"></textarea>
+              <div id="validatepregunta" class="validate">Para continuar, por favor escribe tu pregunta</div>
+             
+            </div> 
+           
+            
+            
+
+            
+            <input onclick="enviarPregunta(); return false;" type="submit" value="Enviar" id="input-submit" style="max-width: 200px; max-height: 40px;">
+          </form>
+           
+          </div>
+        </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal FAQS gracias -->
+<div class="modal fade" id="faqsGracias" tabindex="-1" role="dialog" aria-labelledby="faqsGracias" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    
+      <div class="modal-body">
+        
+
+        <div class="row">
+          <div class="col-12 text-center">
+         <img  src="assets/images/gracias.jpg" data-dismiss="modal" class="img-responsive" alt="">
+          </div>
+        </div>
+
+
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal FAQS -->
+<div class="modal fade" id="modalMercadoPago" tabindex="-1" role="dialog" aria-labelledby="faqs" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    
+      <div class="modal-body">
+        
+
+        <div class="row">
+          <div class="col-12 text-center">
+         <h4 class="textoAzul">Pagar con mercado pago</h4> <br>
+         
+                <!-- Step #2 -->
+                <h5>El total a pagar es de: $<div id="totalConMercadoPago"></div> pesos</h5>
+                <small>Por favor ingresa tus datos de tarjeta</small>
+            <form id="form-checkout" method="post" action="mercado_pago.php" >
+               <input class="form-control" type="text" name="cardNumber" id="form-checkout__cardNumber" />
+               <input class="form-control" type="text" name="cardExpirationMonth" id="form-checkout__cardExpirationMonth" />
+               <input class="form-control" type="text" name="cardExpirationYear" id="form-checkout__cardExpirationYear" />
+               <input class="form-control" type="text" name="cardholderName" id="form-checkout__cardholderName"/>
+               <input class="form-control" type="email" name="cardholderEmail" id="form-checkout__cardholderEmail"/>
+               <input class="form-control" type="text" name="securityCode" id="form-checkout__securityCode" />
+               <select style="background-position-x: 95%;" class="form-control" name="issuer" id="form-checkout__issuer"></select>
+               <select style="background-position-x: 95%;" class="form-control" name="identificationType" id="form-checkout__identificationType"></select>
+               <input class="form-control" type="text" name="identificationNumber" id="form-checkout__identificationNumber"/>
+               <select style="background-position-x: 95%;" class="form-control" name="installments" id="form-checkout__installments"></select>
+               <hr>
+               <button class="mercadopago-button1" type="submit" id="form-checkout__submit">Pagar</button>
+               <!-- <progress value="0" class="progress-bar">Cargando...</progress> -->
+            </form>
+           
+          </div>
+        </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Pago en efectivo -->
+<div class="modal fade" id="modalPagoEnEfectivo" tabindex="-1" role="dialog" aria-labelledby="pagoEnEfectivo" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    
+      <div class="modal-body">
+        
+
+        <div class="row">
+          <div class="col-12 text-center">
+         <h4 class="textoAzul">Realiza tu pago en efectivo</h4> <br>
+         
+              <img src="assets/images/pagoEnEfectivo1.jpg" class="img-fluid" alt="">
+              <img src="assets/images/pagoEnEfectivo2.jpg" class="img-fluid" alt="">
+              <img src="assets/images/pagoEnEfectivo3.jpg" class="img-fluid" alt="">
+           
+          </div>
+        </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+    <script>
+      /*
+      Carousel
+  */
+  $('#carousel-example').on('slide.bs.carousel', function (e) {
+
+      /*
+          CC 2.0 License Iatek LLC 2018
+          Attribution required
+      */
+      var $e = $(e.relatedTarget);
+      var idx = $e.index();
+      var itemsPerSlide = 5;
+      var totalItems = $('.carousel-item').length;
+      
+      if (idx >= totalItems-(itemsPerSlide-1)) {
+          var it = itemsPerSlide - (totalItems - idx);
+          for (var i=0; i<it; i++) {
+              // append slides to end
+              if (e.direction=="left") {
+                  $('.carousel-item').eq(i).appendTo('.carousel-inner');
+              }
+              else {
+                  $('.carousel-item').eq(0).appendTo('.carousel-inner');
+              }
+          }
+      }
+  });
+    </script>
+
+
+    
+  
+    <script>
+        $(document).ready(function(){
+            $('.H-Categorias > div').slick({
+                autoplay        :   true,
+                autoplaySpeed   :   5000,
+                infinite        :   true,
+                speed           :   800,
+                slidesToShow    :   5,
+                centerMode      :   true,
+                centerPadding   :   0,
+                slidesToScroll  :   1,
+                responsive: [{
+                  breakpoint: 965,
+                  settings: {slidesToShow: 3} },
+                {
+                  breakpoint: 485,
+                  settings: {slidesToShow: 1}
+                }]
+            });
+            $('.H-Categorias2 > div').slick({
+                autoplay        :   true,
+                autoplaySpeed   :   5000,
+                infinite        :   true,
+                speed           :   8800,
+                slidesToShow    :   3,
+                centerMode      :   false,
+                centerPadding   :   0,
+                slidesToScroll  :   1,
+                arrows: true,
+                responsive: [{
+                  breakpoint: 965,
+                  settings: {slidesToShow: 2} },
+                {
+                  breakpoint: 768,
+                  settings: {slidesToShow: 1}
+                  
+
+                }]
+            });
+        });
+
+
+
+        $(document).ready(function(){
+      $('.customer-logos').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false,
+        dots: false,
+          pauseOnHover: false,
+          responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 3
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 2
+          }
+        }]
+      });
+    });
+
+
+
+    </script>
+
+
+
+   
+
+    <script>
+      //index2.php menu
+      $(document).ready(function () {
+  $('.yeti-open-sections-list-button').on('mouseenter', function () {
+    $('.yeti-left-two').animate({ scrollTop: 0 }, 1);
+    
+    $('.yeti-open-sections-list-button, .yeti-open-add-section-button').removeClass('yeti-active');
+    $('.yeti-left-two').removeClass('yeti-open');
+    $(this).addClass('yeti-active');
+    $('.yeti-left-two.yeti-one').addClass('yeti-open');
+  });
+  
+  $('.yeti-open-add-section-button').on('mouseenter', function () {
+    $('.yeti-left-two').animate({ scrollTop: 0 }, 1);
+    
+    $('.yeti-open-sections-list-button, .yeti-open-add-section-button').removeClass('yeti-active');
+    $('.yeti-left-two').removeClass('yeti-open');
+    $(this).addClass('yeti-active');
+    $('.yeti-left-two.yeti-two').addClass('yeti-open');
+  });
+  
+  
+  $('.yeti-left-two').on('mouseleave', function () {
+    $('.yeti-open-sections-list-button, .yeti-open-add-section-button').removeClass('yeti-active');
+    $('.yeti-left-two').removeClass('yeti-open');
+  });
+  
+  $('.yeti-unlock-button').click(function () {
+    $('.yeti-unlock-button i').toggleClass('ion-ios-locked-outline, ion-ios-unlocked-outline');
+  });
+  
+});
+
+
+
+
+
+
+
+
+
+       function enviar(){
+
+      $(".validate").hide();
+
+      console.log("entro");
+
+      var nombre = $("#nombre").val();
+      var correo = $("#correo").val();
+      var mensaje = $("#mensaje").val();
+      
+
+      if (nombre=="") {
+        console.log("no hay nombre");
+        $("#validatenombre").show();
+        $("#nombre").focus();
+
+      }else if(correo==""){
+
+        console.log("no hay correo");
+        $("#validatecorreo").show();
+        $("#correo").focus();
+
+      }else if(mensaje==""){
+
+        console.log("no hay mensaje");
+        $("#validatemensaje").show();
+        $("#mensaje").focus();
+
+        }else{
+
+
+          $.ajax(
+                                  {
+                                    url : 'enviarCorreo.php',
+                                    type: "POST",
+                                    data : {nombre: nombre, correo : correo, mensaje : mensaje}
+                                  })
+                                    .done(function(data) {
+                                  console.log(data);
+
+                                 if (data=="1") {
+                                      $(".eliminar").remove();
+                                      $(".sent-message").show();
+                                 }
+                                   
+
+                                    })
+                                    .fail(function(data) {
+                                      alert("Error");
+
+                                    })
+                                    
+                               
+
+
+      }
+
+    }
+
+   // $.removeCookie('aceptoCookies', { path: '/' });
+
+
+    $('#owl-sliderP').owlCarousel({
+    autoplay:true,
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:true,
+    slideSpeed: 3000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        },
+        1400:{
+          items:1
+        }
+    }
+})
+
+
+    $('#owl-carousel').owlCarousel({
+    autoplay:true,
+    loop:true,
+    margin:10,
+    nav:true,
+     dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        },
+        1400:{
+          items:4
+        }
+    }
+})
+
+
+
+ 
+  $("#owl-demo").owlCarousel({
+    navigation : true,
+    dots:false,
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        },
+        1400:{
+          items:2
+        }
+    }
+  });
+
+
+
+
+
+  //validar correo form
+
+  $(document).ready(function() {
+
+    $("#correo").keyup(function(){
+
+      console.log("entrando");
+
+        var email = $("#correo").val();
+
+        if(email != 0)
+        {
+            if(isValidEmailAddress(email))
+            {
+                $("#validatecorreo").hide();
+            } else {
+                $("#validatecorreo").show();
+            }
+        } else {
+            $("#validatecorreo").hide();         
+        }
+
+    });
+
+});
+
+
+  function isValidEmailAddress(emailAddress) {
+    var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+    return pattern.test(emailAddress);
+}
+  
+ 
+
+
+//carousel 
+$(document).ready(function(){
+  $('.carousel').carousel({
+  interval: 6000
+  });
+});
+
+
+  
+</script>
+
+
+
+
+  </body>
+</html>

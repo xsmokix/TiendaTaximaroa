@@ -1,0 +1,21 @@
+<?php
+/*
+  $con = mysql_connect('localhost','root','');
+      @mysql_query("SET NAMES 'utf8'");
+            mysql_select_db('zirahuen', $con);
+
+
+            $con = mysqli_connect("localhost", "root", "");
+            mysqli_select_db($con, "zirahuen");
+            $tildes = $con->query("SET NAMES 'utf8'"); //Para que se muestren las tildes correctamente*/
+            $con = mysqli_connect('localhost', 'root', '', 'taximaroa');
+
+            $tildes = $con->query("SET NAMES 'utf8'");
+
+            /* check connection */
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
+
+?>
